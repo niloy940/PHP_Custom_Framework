@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d5750505-0300-432c-9de2-ef3a3a52ace1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/models/Post.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/User.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PagesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/PagesController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/PostsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/PostsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/UsersController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/App.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/App.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Request.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Request.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/core/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about-culture.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about-culture.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/about.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/contact.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/contact.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/index.view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/footer.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/footer.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/head.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/partials/nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/nav.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/users.view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/users.view.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/partials/head.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/partials/head.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,6 +24,15 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/partials/head.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="72">
+              <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/Post.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -54,7 +42,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/UsersController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state>
@@ -115,6 +103,7 @@
         <option value="$PROJECT_DIR$/app/views/users.view.php" />
         <option value="$PROJECT_DIR$/app/models/User.php" />
         <option value="$PROJECT_DIR$/app/controllers/UsersController.php" />
+        <option value="$PROJECT_DIR$/app/views/partials/head.php" />
       </list>
     </option>
   </component>
@@ -169,6 +158,13 @@
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="route" type="b2602c69:ProjectViewProjectNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -217,12 +213,12 @@
       <workItem from="1544326259580" duration="11568000" />
       <workItem from="1544407967222" duration="2975000" />
       <workItem from="1544470996367" duration="14191000" />
-      <workItem from="1544655191235" duration="10419000" />
+      <workItem from="1544655191235" duration="11262000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47684000" />
+    <option name="totallyTimeSpent" value="48527000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-3" y="31" width="1372" height="740" extended-state="6" />
@@ -297,9 +293,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/partials/head.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/partials/nav.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -325,13 +318,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="56" column="38" selection-start-line="56" selection-start-column="38" selection-end-line="56" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -395,6 +381,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/head.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
         </state>
       </provider>
     </entry>
