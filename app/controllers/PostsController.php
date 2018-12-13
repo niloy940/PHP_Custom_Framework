@@ -6,11 +6,16 @@
  * Time: 9:58 AM
  */
 
+namespace App\Controllers;
+
+
+use App\Models\Post;
+
 class PostsController
 {
     public function show()
     {
-        $posts = App::get('database')->selectAll('posts');
+        $posts = Post::getPosts();
 
         return view('index', compact('posts'));
     }
